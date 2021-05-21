@@ -72,9 +72,9 @@ iframe {
 
 @font-face {
 	font-family: 'LydianBT-Italic';
-	src: url('../LydianBT-Italic.ttf') format('truetype'),
-		 url('../LydianBT-Italic.woff') format('woff'),
-		 url('../LydianBT-Italic.woff2') format('woff2');
+	src: url('../fonts/LydianBT-Italic.ttf') format('truetype'),
+		 url('../fonts/LydianBT-Italic.woff') format('woff'),
+		 url('../fonts/LydianBT-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
