@@ -1,0 +1,81 @@
+body {	
+	background-color: black;
+	color: red;
+	background-image: url('bgg.png');
+}
+
+h1 {
+	font-family: 'LydianBT-Italic';
+	font-size: 60px;
+	width:max-content;
+    padding: 20px;
+    border: 7px solid red;
+  }
+
+a {
+	font-family: 'LydianBT-Italic';
+	color: red;
+	position: absolute; 
+	left:85%;
+	top: 98%;
+  }
+
+img {
+	border: 5px solid red;
+}
+
+iframe {
+	border: 5px solid red;
+}
+
+#yizzy {
+	position: absolute; 
+	left: 200px; 
+	top: 900px; 
+}
+
+#smile {
+	position: absolute; 
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-50%);
+	top: 300px; 
+}
+
+#once {
+	position: absolute; 
+	left: 70%; 
+	top: 500px; 
+}
+
+#thats {
+	position: absolute; 
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-75%);
+	top: 600px; 
+
+}
+
+#best {
+	position: absolute; 
+	left: 55%; 
+	top: 850px; 
+}
+
+#never {
+	position: absolute; 
+	left: 10%; 
+	top: 450px; 
+
+}
+
+@font-face {
+	font-family: 'LydianBT-Italic';
+	src: url('fonts/LydianBT-Italic.ttf') format('truetype'),
+		 url('fonts/LydianBT-Italic.woff') format('woff'),
+		 url('fonts/LydianBT-Italic.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
