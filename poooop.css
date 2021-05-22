@@ -12,14 +12,6 @@ h1 {
     border: 7px solid red;
   }
 
-a {
-	font-family: 'LydianBT-Italic';
-	color: red;
-	position: absolute; 
-	left:85%;
-	top: 98%;
-  }
-
 img {
 	border: 5px solid red;
 }
@@ -28,17 +20,39 @@ iframe {
 	border: 5px solid red;
 }
 
+a {
+	font-family: 'LydianBT-Italic';
+	color: red;
+}
+
+p {
+	font-family: 'LydianBT-Italic';
+	color: white;
+}
+
+#clicker {
+	position: absolute; 
+	left:90%;
+	top: 98%;
+  }
+
+#droplink {
+	position: absolute; 
+	left:0%;
+	top: 5%;
+  }
+
 #yizzy {
 	position: absolute; 
 	left: 200px; 
-	top: 900px; 
+	top: 875px; 
 }
 
 #smile {
 	position: absolute; 
 	left: 50%;
 	margin-right: -50%;
-    transform: translate(-50%);
+    transform: translate(-40%);
 	top: 300px; 
 }
 
@@ -52,7 +66,7 @@ iframe {
 	position: absolute; 
 	left: 50%;
 	margin-right: -50%;
-    transform: translate(-75%);
+    transform: translate(-55%);
 	top: 600px; 
 
 }
@@ -65,17 +79,44 @@ iframe {
 
 #never {
 	position: absolute; 
-	left: 10%; 
+	left: 100px; 
 	top: 450px; 
 
 }
 
 @font-face {
 	font-family: 'LydianBT-Italic';
-	src: url('../fonts/LydianBT-Italic.ttf') format('truetype'),
-		 url('../fonts/LydianBT-Italic.woff') format('woff'),
-		 url('../fonts/LydianBT-Italic.woff2') format('woff2');
+	src: url('fonts/LydianBT-Italic.ttf') format('truetype'),
+		 url('fonts/LydianBT-Italic.woff') format('woff'),
+		 url('fonts/LydianBT-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
   
+.container {
+    position: absolute;
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-50%);
+    height: 1000px;
+    width: 1500px;
+}
+
+#merch {
+	height: 300px;
+	width: 300px;
+}
+
+div.item {
+	float: left;
+	margin: 30px;
+	text-align: center;
+}
+
+#twitpic {
+	border: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+
