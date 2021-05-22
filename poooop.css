@@ -92,18 +92,23 @@ p {
 
 @font-face {
 	font-family: 'LydianBT-Italic';
-	src: url('../fonts/LydianBT-Italic.ttf') format('truetype'),
-		 url('../fonts/LydianBT-Italic.woff') format('woff'),
-		 url('../fonts/LydianBT-Italic.woff2') format('woff2');
+	src: url('fonts/LydianBT-Italic.ttf') format('truetype'),
+		 url('fonts/LydianBT-Italic.woff') format('woff'),
+		 url('fonts/LydianBT-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
   }
   
+.scale {
+	width: device-width;
+}
+
 .container {
     position: absolute;
-	left: 50%;
-	margin-right: -50%;
-    transform: translate(-50%);
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
     height: 1000px;
     width: 1500px;
 }
