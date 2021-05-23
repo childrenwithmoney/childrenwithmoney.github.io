@@ -62216,7 +62216,8 @@ var dict = ['a',
     // alert('The computer chose:' + thing1 + ' ' + thing2);
 
     var search = thing1 + ' ' + thing2;
-    window.open("https://duckduckgo.com/?q=!ducky+" + escape(search));
+    //window.open("https://duckduckgo.com/?q=!ducky+" + escape(search));
+	window.open("https://duckduckgo.com/?q=!ducky+" + escape(search) + "+-site%3Amerriam-webster.com+-site%3Adictionary.com+-site%3Athefreedictionary.com");
     
 }
 
